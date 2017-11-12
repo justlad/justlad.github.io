@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuqialin.com/"/>
-  <updated>2017-11-05T17:14:04.000Z</updated>
+  <updated>2017-11-12T04:15:50.000Z</updated>
   <id>http://wuqialin.com/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>扒光了一个利用微信进行灰产引流的套路</title>
+    <link href="http://wuqialin.com/2017/469e22c3.html"/>
+    <id>http://wuqialin.com/2017/469e22c3.html</id>
+    <published>2017-11-11T16:56:49.000Z</published>
+    <updated>2017-11-12T04:15:50.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-朋友圈文章2.jpeg" alt="朋友圈文章2"><br>背景：<br>最近朋友圈经常看见有人转发类似图片标题的文章，出于对转发人的了解，点进去研究了一下是什么原因让其转发这样的内容，没想却发现了一个很高明的灰产引流的套路。<br><a id="more"></a></p><h4 id="一、文章的内容"><a href="#一、文章的内容" class="headerlink" title="一、文章的内容"></a>一、文章的内容</h4><p>打开这些文章链接，可以看到是一个普通的微信公众号文章。里面的视频是一个很普通的快手类视频，除视频外，有两个黑五类产品的广告动图。点击观看视频，看到一半，突然出来一个弹窗，说网速慢，分享可以提速观看。</p><p>那么问题来了，微信文章还有看视频看一半弹出来提示得分享再继续看的操作？表示我还没见过。。。</p><p>所以很容易就猜到：<strong>这是一个伪装成微信文章样式的网页。</strong><br>（甚至连下方的广点通广告位都模仿了）</p><p><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-伪装的微信文章.jpg" alt="伪装的微信文章"></p><h4 id="二、内容隐藏的秘密"><a href="#二、内容隐藏的秘密" class="headerlink" title="二、内容隐藏的秘密"></a>二、内容隐藏的秘密</h4><p>现在，我们知道了该文章只是一个伪装成微信文章样式的网页，那么为什么会有人人做这些东西呢，其目的又是什么？</p><p>点击伪装的作者“劲爆视频”，跳转到了一个真的微信公众号文章链接，内容为直接提示引导关注。<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-作者.jpg" alt="作者"></p><p>点击伪装的“阅读原文”，跳转到了另一个伪装的微信文章页面，且作者伪装成了腾讯新闻。这次内容是小说，第一章。在该页面再一次点击阅读原文，到了一个小说网站，初始页面为小说第二章。<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-阅读原文.jpg" alt="阅读原文"></p><p>而在研究其套路时，我们按照他的步骤进行了分享，发现其分享的要求还很心机。分享1次后会再提示你分享到2个别的群，分享多2次后，又要提示你分享到朋友圈，前前后后一共要你分享4次！<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-文章分享.jpg" alt="文章分享"></p><p>综合以上：<br>黑五类广告+公众号引导关注+小说引流+强制分享 = <strong>一个灰产引流变现的套路！</strong></p><h4 id="三、套路隐藏的玄机"><a href="#三、套路隐藏的玄机" class="headerlink" title="三、套路隐藏的玄机"></a>三、套路隐藏的玄机</h4><p>1、刚打开页面不能复制链接分享，需要看视频一半后页面自动弹窗+跳转才有分享按钮；</p><p>2、每次打开阅读数、点赞数都不一样，随机改变，多为显示10万+；</p><p>3、拿到页面链接后，我们发现其链接后缀有三组数字，而修改对应数字后，还是能访问到相同的页面。故推测其一个内容页面会生成很多个链接，目的是防止链接被举报被封。<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-链接数字.jpg" alt="链接数字"><br>4、结合上面第二部分时我们讲到其公众号引导和小说引流，那么这三组数字应该对应的是引导关注的公众号分类、视频内容分类、小说分类，而实际测试也发现引导关注的公众号不止1个，应该也是为了防止官方顺藤摸瓜，把导流的公众号也封了，或者是接了不同公众号引流的业务。</p><p>5、PC端打开链接，发现其做了302跳转到腾讯视频，一般人也获取不到真实的url，找到正真的幕后推手。<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-WechatIMG1336.jpeg" alt="WechatIMG1336"></p><p>6、去除链接后缀，直接访问其域名，发现其做了403禁止访问。</p><p>7、因为微信规则要求，能在微信直接打开的外部链接必须备案过，所以域名都是备案域名。</p><p>从上面这些手法可以看到，其流量获取的手段算是相当“心机”。大量不同url的相同内容页面（猜测还有多个域名），要求多次分享，分享出去的内容看起来没变，但内容实际已经变了，举报一个还有很多个。</p><p>多层的抗查封手段，使得一般的人根本不会意识到自己已经被利用了，而且也给专业的人士增加了一定的阻力，没法一下子找到根源并完全查封完。</p><h4 id="四、后话"><a href="#四、后话" class="headerlink" title="四、后话"></a>四、后话</h4><p>在发现这个套路的一星期期间，发现原来的链接有些变换了内容，有些被封了。找了相关懂行的人士打听，说微信已经对这种链接采取了打击封域名的手段，其它细节看图吧。<br><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-系统1.jpeg" alt="系统1"><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-后台系统2.jpeg" alt="后台系统2"><img src="http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-强制分享原理.png" alt="强制分享原理"></p><p>至此，这个利用微信进行灰产引流的套路已经基本被扒光。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://oxr3c1v7s.bkt.clouddn.com/2017-11-12-朋友圈文章2.jpeg&quot; alt=&quot;朋友圈文章2&quot;&gt;&lt;br&gt;背景：&lt;br&gt;最近朋友圈经常看见有人转发类似图片标题的文章，出于对转发人的了解，点进去研究了一下是什么原因让其转发这样的内容，没想却发现了一个很高明的灰产引流的套路。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="推广案例" scheme="http://wuqialin.com/categories/%E6%8E%A8%E5%B9%BF%E6%A1%88%E4%BE%8B/"/>
+    
+    
+      <category term="灰产引流" scheme="http://wuqialin.com/tags/%E7%81%B0%E4%BA%A7%E5%BC%95%E6%B5%81/"/>
+    
+  </entry>
   
   <entry>
     <title>《商业百科》读书笔记</title>
@@ -102,9 +124,9 @@
       <category term="APP推广" scheme="http://wuqialin.com/categories/APP%E6%8E%A8%E5%B9%BF/"/>
     
     
-      <category term="ASO" scheme="http://wuqialin.com/tags/ASO/"/>
-    
       <category term="APP推广" scheme="http://wuqialin.com/tags/APP%E6%8E%A8%E5%B9%BF/"/>
+    
+      <category term="ASO" scheme="http://wuqialin.com/tags/ASO/"/>
     
   </entry>
   
