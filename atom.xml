@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>ThWata</title>
   
-  
+  <subtitle>do it better</subtitle>
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://wuqialin.com/"/>
