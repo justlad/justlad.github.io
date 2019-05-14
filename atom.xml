@@ -39,34 +39,6 @@
   </entry>
   
   <entry>
-    <title>20190321-有温度的文字</title>
-    <link href="http://wuqialin.com/2019/c479735.html"/>
-    <id>http://wuqialin.com/2019/c479735.html</id>
-    <published>2019-03-21T13:30:00.000Z</published>
-    <updated>2019-03-21T10:31:52.019Z</updated>
-    
-    <content type="html"><![CDATA[<p>最近看书。<br>看一些经管类的书，冷冰冰的书。<br>看自己博客，冷冰冰的博客。</p><p>想起曾经故人，思绪万千。<br>遂是“找到”她，一字一句琢磨。</p><p>向日葵的封面图，温暖而又坚定的文字。<br>浮现的旧景，此刻的现状。<br>难言滋味。</p><p>真好。<br>我也要写一些有温度的文字。</p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;最近看书。&lt;br&gt;看一些经管类的书，冷冰冰的书。&lt;br&gt;看自己博客，冷冰冰的博客。&lt;/p&gt;
-&lt;p&gt;想起曾经故人，思绪万千。&lt;br&gt;遂是“找到”她，一字一句琢磨。&lt;/p&gt;
-&lt;p&gt;向日葵的封面图，温暖而又坚定的文字。&lt;br&gt;浮现的旧景，此刻的现状。&lt;br&gt;难言滋味。&lt;/p&gt;
-&lt;
-      
-    
-    </summary>
-    
-      <category term="生活随想" scheme="http://wuqialin.com/categories/%E7%94%9F%E6%B4%BB%E9%9A%8F%E6%83%B3/"/>
-    
-    
-      <category term="随想" scheme="http://wuqialin.com/tags/%E9%9A%8F%E6%83%B3/"/>
-    
-  </entry>
-  
-  <entry>
     <title>马桶多闪聊天宝“败局”下的乌合之众</title>
     <link href="http://wuqialin.com/2019/b0ebb3da.html"/>
     <id>http://wuqialin.com/2019/b0ebb3da.html</id>
@@ -484,6 +456,30 @@
     
     
       <category term="随想" scheme="http://wuqialin.com/tags/%E9%9A%8F%E6%83%B3/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>《ASO优化大师》——一本书教会你ASO基础优化</title>
+    <link href="http://wuqialin.com/2017/92ddf280.html"/>
+    <id>http://wuqialin.com/2017/92ddf280.html</id>
+    <published>2017-11-26T15:00:00.000Z</published>
+    <updated>2018-12-21T00:41:07.720Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="http://thwata.top/2017-12-01-屏幕快照 2017-12-01 下午7.24.50.jpg" alt="屏幕快照 2017-12-01 下午7.24.50">17年11月1日出版的新书，介绍为“一本书教你建立完整ASO运营知识体系、快速完成基本ASO方案”。虽然里面一直在推荐作者自己创业的ASO平台，但内容很实在，关键词部分和方案优化部分讲解很详细，很适合新手入门。<br><a id="more"></a></p><p>书开头部分都是一些很基础的优化介绍，网上可以很容易找到各种文章查看，这里就不详细展开，主要记录后半部分的内容。</p><h2 id="一、APP基础信息优化"><a href="#一、APP基础信息优化" class="headerlink" title="一、APP基础信息优化"></a>一、APP基础信息优化</h2><ul><li>APP标题优化</li><li>APP描述优化</li><li>ICON设计优化</li><li>APP截图优化</li><li>APP预览视频制作与优化</li></ul><h2 id="二、APP榜单优化"><a href="#二、APP榜单优化" class="headerlink" title="二、APP榜单优化"></a>二、APP榜单优化</h2><p>Apple Store分为“免费榜”、“付费榜”、“畅销榜”3个类型，按类别可以分为“总榜”与“天气”等26个主要类目榜单，每个榜单在Apple Store有150个展示位置，但大部分ASO工具都可以抓取到TOP 1500的榜单。其中“儿童”类别比较特殊，在iTunes后台无法填写，应该是苹果根据APP年龄设置自动生成的。据统计，Apple Store中APP榜单待凉的下载量大概占全部下载流量的35%左右。</p><ul><li>免费榜：可以免费购买下载的APP下载量排行；</li><li>付费榜：需要付费下载的APP下载量排行；</li><li>畅销榜：最近一段时间收入最高的APP排行；</li></ul><p>一般说榜单，指的都是免费榜，故我们这里主要关注和研究免费榜的规则。</p><h3 id="1-APP榜单排名算法"><a href="#1-APP榜单排名算法" class="headerlink" title="1. APP榜单排名算法"></a>1. APP榜单排名算法</h3><p>Apple Store的算法一直是机密，但根据以往经验，业内人士猜测苹果的排名权重主要包括以下部分：</p><ul><li>安装量／下载量：一般认为，下载量会考虑长期的（如最近一周的），以及短期的（如最近几小时的）；</li><li>评论情况：即评论数，以及好评占总评论量的比例；</li><li>销售额：这个数据主要针对付费APP或者有内购的APP；</li><li>黏度：主要用于衡量用户的使用行为，包括APP使用时长、启动次数等。</li></ul><p>而这些其中，下载量为Apple Store排名算法的核心。此外用户下载及好评用的IP地址，会影响APP所在地区的排名。</p><p><strong>网上流传的Apple Store下载量计算公式如下：</strong><br>当前排名=今日下载量×8 + 昨日下载量×5 + 前天下载量×5 + 大前天下载量×2</p><h3 id="2-Apple-Store榜单更新规律"><a href="#2-Apple-Store榜单更新规律" class="headerlink" title="2. Apple Store榜单更新规律"></a>2. Apple Store榜单更新规律</h3><p><strong>榜单更新的周期大概为2~3小时（2.5小时）。</strong></p><p><strong>基本的冲榜策略：</strong>根据以往经验，最近一个周期内的下载量占排名权重的40%。假如可以准确的预测榜单更新时间（可借助ASO工具），就可以在一个周期开始前的2个多小时开始冲榜，这样冲榜效果和曝光时长就会更优。此外。如果在一些广告系统上投放，也可以根据这个周期来定点投放，以达到榜单和广告互相增强的效果。</p><h3 id="3-APP榜单优化"><a href="#3-APP榜单优化" class="headerlink" title="3. APP榜单优化"></a>3. APP榜单优化</h3><h4 id="下载量提升"><a href="#下载量提升" class="headerlink" title="下载量提升"></a>下载量提升</h4><p>根据一些刷榜积分墙的统计，刷免费榜需要的下载量大致如下：</p><ul><li>TOP 1~5 ：下载次数（15~20）万／天</li><li>TOP 6~10 ：下载次数（5~10）万／天</li><li>TOP 11~20 ：下载次数（5~7）万／天</li><li>TOP 31~50 ：下载次数（2~5）万／天</li></ul><h4 id="评论提升"><a href="#评论提升" class="headerlink" title="评论提升"></a>评论提升</h4><ul><li>引导用户评论</li><li>换评论</li><li>买评论</li></ul><h4 id="获得精品推荐"><a href="#获得精品推荐" class="headerlink" title="获得精品推荐"></a>获得精品推荐</h4><p>UI、使用体验、产品质量等APP内部优化</p><h2 id="三、关键词优化"><a href="#三、关键词优化" class="headerlink" title="三、关键词优化"></a>三、关键词优化</h2><h3 id="1-ASO搜索原理"><a href="#1-ASO搜索原理" class="headerlink" title="1. ASO搜索原理"></a>1. ASO搜索原理</h3><p><strong>索引字段</strong>：苹果规定只索引“标题和关键词”，只有在这两个地方的词才能被搜到。</p><p><strong>选词标准</strong>：搜索热度高；竞争程度低；和APP相关性高。</p><ul><li>“搜索热度”是归一后的结果，简单理解，如微信的搜索热度是另外一个词的2倍，则可以认为实际的搜索次数是10的2次方，也就是100倍。</li><li>根据经验，一般认为评论数小于500的APP为“竞争力一般”，如果一个热门关键词TOP35的APP大多评论量都较少，那么就可以认为这个关键词的竞争度较低。</li></ul><p><strong>效果评价</strong>：ASO主要通过“搜索曝光度”来衡量效果，即词的搜索热度和APP的搜索排名两个指标结合。一般来说ASO能带来的下载量增量在20%以内，那些靠ASO就增加200%下载甚至更多的大多为特殊特例（特别是知名度不高的产品）。</p><p><strong>搜索排序</strong>：<br>APP的搜索排序是按搜索得分进行排序：</p><blockquote><p>搜索得分 = 文本得分 × 数值得分</p></blockquote><p>文本得分：即用户搜索的词和标题以及关键词的匹配情况。假如命中标题得1分，则命中关键词可以得0.4分。<br>数值得分：主要包括APP下载量，评论情况、日活等具体的数值，其中下载量权重占比还是最高，大约占70%。</p><p><strong>截断</strong>：根据观察，一个搜索词最多只给出约2200个APP，而实际包含这个词的APP可能不止2200个。</p><p><strong>关键词覆盖数</strong>：Apple Store后台关键词只能填写100个字符，大约20个关键词，但可覆盖的搜索词从几百到上万不等，这和搜索词存在完全匹配和部分匹配有关。</p><blockquote><p><strong>APP名称：</strong>APP运营助手——基于大数据的APP营销运营工具</p><p><strong>关键词：</strong>App运营、App市场优化、营销运营、应用雷达、 App Annie类产品、 Appduu、ASO、社区运营、用户画像、App统计分析、App竞品、应用宝库、广点通、粉丝通、微博运营、微信运营、微信营销</p><p>完全匹配”比较简单,像“App市场优化”这个关键词,其可以分为“App“、”市场”、“优化”3个词,其任意顺序的组合都可以组成“完全匹配”的搜索词。像“优化ApD这样的组合是没意义的,热度为0,但这个词确实能搜到该App。</p><p>“完全匹配”另外一个有意思的现象就是匹配是可以跨关键词的。也就是说,从“App运营”和“App市场优化”两个独立的关键词中任意抽取两个词,如“运营”和“优化”组成“运营优化”,也可以构成一个完全匹配的搜索词。而任意抽取3个词,也能搜到这个App。这个App的关键词,分词后大概总共30个词,其中任意两个词进行组合,就能构成30×30=900个“完全匹配”的检索词;而任意3个的组合,就能构成30×29×28=24360个检索词。当然这种随便组合的词,大部分没有实际意义,热度基本都是0。但如果你非常需要一个覆盖数来完成KPI之类的事情,在关键词/ASO页面添加一些这样的词就行了。</p><p>我们大致测算了一下,关键词的“完全匹配”一般只能覆盖200个左右热度大于0的搜索词,但一般的App覆盖搜索词数(热度大于0)都能到2000右。也就是说,一个App覆盖的搜索词只有约10%是“完全匹配”的,而其他90%都是“部分匹配”。</p><p>因此,增加搜索词覆盖数的关键就在于“部分匹配”。但“部分”匹配的规则要复杂得多,举个例子:“营销书籍”和“超客营销”这两个搜索词都包含“营销”这个词,是App的关键词;而“书籍”和“超客”这两个词,并不在App的关键字中。这两个搜索词都可能构成“部分匹配”;而实际检验的结果是,“营销书籍”能够搜到这个App,而“超客营销”并不能搜到。也就是说,只有“营销书籍”是App通过“部分匹配”覆盖的搜索词这个结果可以这样解释,苹果认为“营销书籍”中“营销”是核心词,比“书籍”重要因此只要匹配“营销”即可。而“超客营销”中,“超客”比“营销”更核心,因此关键词中必须包含“超客”才能匹配。</p></blockquote><h3 id="2-搜索更新规律"><a href="#2-搜索更新规律" class="headerlink" title="2. 搜索更新规律"></a>2. 搜索更新规律</h3><p>通过作者数据研究发现如下几个规律，利用规律可以制定和榜单类似的刷排名基本方案：</p><ul><li>不同关键词的搜索结果基本是在同一个时间点更新的，这个和榜单更新规律类似。</li><li>搜索结果更新周期一般为6个小时。</li><li>在大的更新周期中存在一些短周期的更新，具体时间点不定，但大多在更新时间点附近。在这些点上，搜索结果变化率一般都小于10%。</li><li>搜索热度较高的词，被刷的词，短周期更新明显更多。而一些热度较低的词，一天可能只在一个大周期上更新一次。</li></ul><p><strong>锁榜现象</strong>：即在一定时间长度范围内，榜单排名没有出现任何变化，即为锁榜。一般为24小时左右，很少有超过2天的情况。造成锁榜的原因可能如下：</p><ul><li>搜索算法调整</li><li>配合新版（大改动）系统发布</li><li>打击刷榜</li><li>配合搜索广告发布</li></ul><h3 id="3-关键词总体概览"><a href="#3-关键词总体概览" class="headerlink" title="3. 关键词总体概览"></a>3. 关键词总体概览</h3><p>APP上架，选词需要考虑热度、竞争度、相关性、品牌词／行业词的配比等。</p><p>根热度小于4605的词，每天搜索次数小于1，因此我们主要关注热度大于4605的词，这样的词有4.6万个。热度在5000的词，搜索量级大概为几百，但热度5000以上的词，只有4000多个。而中文APP活跃的应该有三四万个，因此中国区的ASO竞争度是非常高的。</p><p>关键词的类别，主要看搜索命中的第一个APP的首要类别。按照“正标题=品牌”的定义，热度大于4605的词中有约3.9万都是品牌词，其他7000个可以认为是“行业词”。品牌词虽多，但带量效果不如行业词好，因此选词时需要考虑比例。</p><p>关键热度值与搜索量对应关系（大概）如下表格：</p><table><thead><tr><th style="text-align:center">热度</th><th style="text-align:center">搜索量</th></tr></thead><tbody><tr><td style="text-align:center">4605</td><td style="text-align:center">1</td></tr><tr><td style="text-align:center">5000</td><td style="text-align:center">371</td></tr><tr><td style="text-align:center">5500</td><td style="text-align:center">611</td></tr><tr><td style="text-align:center">6000</td><td style="text-align:center">1008</td></tr><tr><td style="text-align:center">6500</td><td style="text-align:center">1662</td></tr><tr><td style="text-align:center">7000</td><td style="text-align:center">2741</td></tr><tr><td style="text-align:center">7500</td><td style="text-align:center">4520</td></tr><tr><td style="text-align:center">8000</td><td style="text-align:center">6452</td></tr><tr><td style="text-align:center">8500</td><td style="text-align:center">12286</td></tr><tr><td style="text-align:center">9000</td><td style="text-align:center">20257</td></tr><tr><td style="text-align:center">9500</td><td style="text-align:center">33399</td></tr><tr><td style="text-align:center">10000</td><td style="text-align:center">＞100000</td></tr></tbody></table><h3 id="4-APP选词套路"><a href="#4-APP选词套路" class="headerlink" title="4. APP选词套路"></a>4. APP选词套路</h3><ol><li>确定热度4605以上的有效关键词。</li><li>从有效关键词中抽取100~200个词：介绍抽取、类别词、竞品词、以词选词。</li><li>从200个词中细选出100个字符的最终关键词：先热度分区选词，再调整竞品词和行业词的比例，大概为15%：75%。</li></ol><h3 id="5-关键词带量计算"><a href="#5-关键词带量计算" class="headerlink" title="5. 关键词带量计算"></a>5. 关键词带量计算</h3><p><strong>一个搜索词的带量计算，主要有两个步骤：</strong></p><ol><li>估计词的日均搜索量</li><li>根据APP在这个词下的排名，估计下载量<br>词的搜索量可以查看前面的热度和搜索量的对应表格估计，而第二部考虑的是”下载转化率“，而苹果没有给出这些数据，就需要根据一些安卓市场的统计来估计转化率。</li></ol><p><strong>搜索词带量计算：</strong><br>以“优步Uber”这个App为例。其覆盖了搜索词“uber”,热度为8004,这个App排名第一。下面就计算下“uber”这个词给“优步Uber”App的带量：</p><blockquote><ol><li>查“热度-搜索表”可知,“uber”为8000热度,其对应的日均搜索量为6500左右。</li><li>据一些安卓市场的搜索转化率统计,搜索到下载的整体比例大约为4：1到2：1，我们这里取2:1,即50%的转化率。则“uber”这个词能带来的全部下载量约为6500×50%=3250。</li><li>这些下载量基本会分配到搜索结果Top10的App上。具体的分配比例也参照安卓市场,(如360市场给出的比例中,排名第一的优步App占约90%),则这个词为其第一名App的“带量”就是3250×90%=2925。</li></ol></blockquote><p>结论就是：”uber“这个词为”优步-Uber“的带量约为2925。</p><h3 id="6-APP搜索排名预测"><a href="#6-APP搜索排名预测" class="headerlink" title="6. APP搜索排名预测"></a>6. APP搜索排名预测</h3><p>APP的搜索排序是按搜索得分进行排序，而搜索得分 = 文本得分（搜索匹配度） × 数值得分（APP质量得分）</p><blockquote><p><strong>根据评论数预测排名</strong>：大量统计结果表明，Apple Store的评论和下载量为1:30到1:100的关系，故可以把评论数当成下载量，再加上文本匹配度得分来预估排名（准确率约为55%）。</p><p><strong>根据下载量预测排名</strong>：结合评论和关键词榜单来预估下载量，再加上文本匹配度得分来预估排名。（准确率约为60%）。</p><p><strong>根据共用关键词预测排名</strong>：利用共有关键词分析两个APP的排名对比情况，对新增关键词的APP只需要逐一对比关键词下现有的APP，就可以对应该新APP的排名情况了（准确率约为70%）。</p></blockquote><h3 id="7-ASO更新选词套路"><a href="#7-ASO更新选词套路" class="headerlink" title="7. ASO更新选词套路"></a>7. ASO更新选词套路</h3><p>选词的衡量指标一般有3个：词的覆盖数、搜索曝光度、APP下载量</p><p><strong>更新选词的流程：</strong></p><blockquote><p>1.删除现有带量较少或不能带量的词，删词的数量一般控制在30%以内。<br>2.根据前面提到的选词法，选取新的30%词。<br>3.把确定的新关键词组合导入ASO工具确定并对比新旧关键词覆盖数。</p></blockquote><h3 id="8-ASO“组词”技术"><a href="#8-ASO“组词”技术" class="headerlink" title="8. ASO“组词”技术"></a>8. ASO“组词”技术</h3><p><strong>分词技术</strong>：即拆词，如“乒乓球卖完了”会被拆分成“乒乓球 | 拍卖 | 完了”和“乒乓球拍 | 卖 | 完了”两种，搜索系统会把两种分词形式都记录下来，以供搜索时使用。</p><p>搜索引擎遵循词袋模型，即不考虑词的顺序，认为一个文本就是一堆词的集合，例如”腾讯新闻“和”新闻腾讯“对于搜索引擎来说是完全一样的，这种假设也是我们能够进行组词的基础。</p><p><strong>组词技术</strong>：</p><ul><li>组词不宜过长，以不超过5个为宜。</li><li>对下载较少的APP，不需要刻意组词，因为你的APP基本处在长尾位置，一点点的加分就可能让你的搜索排名有大幅提升。</li><li>对应需要”刷“的词，还有核心带量的关键词，建议都用逗号隔开，不进行组词。</li></ul><h3 id="9-ASO选词报告模板"><a href="#9-ASO选词报告模板" class="headerlink" title="9. ASO选词报告模板"></a>9. ASO选词报告模板</h3><p><img src="http://thwata.top/2017-12-02-ASO模板1.jpg" alt="ASO模板1"><img src="http://thwata.top/2017-12-02-ASO模板2.jpg" alt="ASO模板2"><img src="http://thwata.top/2017-12-02-ASO模板3.jpg" alt="ASO模板3"><img src="http://thwata.top/2017-12-02-ASO模板4.jpg" alt="ASO模板4"></p><h2 id="四、APP应用市场数据分析"><a href="#四、APP应用市场数据分析" class="headerlink" title="四、APP应用市场数据分析"></a>四、APP应用市场数据分析</h2><p>这部分为苹果后来基本数据维度介绍和简单分析应用，不做展开。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;http://thwata.top/2017-12-01-屏幕快照 2017-12-01 下午7.24.50.jpg&quot; alt=&quot;屏幕快照 2017-12-01 下午7.24.50&quot;&gt;17年11月1日出版的新书，介绍为“一本书教你建立完整ASO运营知识体系、快速完成基本ASO方案”。虽然里面一直在推荐作者自己创业的ASO平台，但内容很实在，关键词部分和方案优化部分讲解很详细，很适合新手入门。&lt;br&gt;
+    
+    </summary>
+    
+      <category term="阅读笔记" scheme="http://wuqialin.com/categories/%E9%98%85%E8%AF%BB%E7%AC%94%E8%AE%B0/"/>
+    
+    
+      <category term="ASO" scheme="http://wuqialin.com/tags/ASO/"/>
+    
+      <category term="APP推广" scheme="http://wuqialin.com/tags/APP%E6%8E%A8%E5%B9%BF/"/>
     
   </entry>
   
