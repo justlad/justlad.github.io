@@ -68,7 +68,7 @@
 
 
 
-  <meta name="keywords" content="运营推广,个人管理,">
+  <meta name="keywords" content="产品设计,区块链,">
 
 
 
@@ -81,18 +81,20 @@
 
 
 
-<meta name="description" content="本期为第2期。">
-<meta name="keywords" content="运营推广,个人管理">
+<meta name="description" content="公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。 由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因">
+<meta name="keywords" content="产品设计,区块链">
 <meta property="og:type" content="article">
-<meta property="og:title" content="每周文章推荐-第2期">
-<meta property="og:url" content="http://wuqialin.com/2019/396e434b.html">
+<meta property="og:title" content="车载OBD矿机挖矿算法设计">
+<meta property="og:url" content="http://wuqialin.com/2019/c3872e09.html">
 <meta property="og:site_name" content="吴三水">
-<meta property="og:description" content="本期为第2期。">
+<meta property="og:description" content="公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。 由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-05-26T14:01:27.000Z">
+<meta property="og:image" content="http://thwata.top/OBD能获取到的数据.png">
+<meta property="og:updated_time" content="2019-08-19T09:46:55.420Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="每周文章推荐-第2期">
-<meta name="twitter:description" content="本期为第2期。">
+<meta name="twitter:title" content="车载OBD矿机挖矿算法设计">
+<meta name="twitter:description" content="公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。 由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因">
+<meta name="twitter:image" content="http://thwata.top/OBD能获取到的数据.png">
 
 
 
@@ -122,13 +124,13 @@
 
 
 
-  <link rel="canonical" href="http://wuqialin.com/2019/396e434b.html">
+  <link rel="canonical" href="http://wuqialin.com/2019/c3872e09.html">
 
 
 
 
 
-  <title>每周文章推荐-第2期 | 吴三水</title>
+  <title>车载OBD矿机挖矿算法设计 | 吴三水</title>
   
 
 
@@ -274,7 +276,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://wuqialin.com/2019/396e434b.html">
+    <link itemprop="mainEntityOfPage" href="http://wuqialin.com/2019/c3872e09.html">
 
     <span hidden itemprop="author" itemscope="" itemtype="http://schema.org/Person">
       <meta itemprop="name" content="吴三水">
@@ -291,7 +293,7 @@
 
         
         
-          <h2 class="post-title" itemprop="name headline">每周文章推荐-第2期</h2>
+          <h2 class="post-title" itemprop="name headline">车载OBD矿机挖矿算法设计</h2>
         
 
         <div class="post-meta">
@@ -303,8 +305,8 @@
               
                 <span class="post-meta-item-text">发表于</span>
               
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-05-26T22:30:00+08:00">
-                2019-05-26
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2019-08-18T10:30:00+08:00">
+                2019-08-18
               </time>
             
 
@@ -326,8 +328,8 @@
               
               
                 <span itemprop="about" itemscope="" itemtype="http://schema.org/Thing">
-                  <a href="/categories/文章推荐/" itemprop="url" rel="index">
-                    <span itemprop="name">文章推荐</span>
+                  <a href="/categories/区块链/" itemprop="url" rel="index">
+                    <span itemprop="name">区块链</span>
                   </a>
                 </span>
 
@@ -363,24 +365,63 @@
       
 
       
-        <p><em>本期为第2期。</em><br><a id="more"></a></p>
-<h3 id="一个王兴换三个陈欧，一个滴滴换十个小红书"><a href="#一个王兴换三个陈欧，一个滴滴换十个小红书" class="headerlink" title="一个王兴换三个陈欧，一个滴滴换十个小红书"></a><a href="https://zhuanlan.zhihu.com/p/24437887" target="_blank" rel="noopener">一个王兴换三个陈欧，一个滴滴换十个小红书</a></h3><blockquote>
-<p>生活中所有事情可分三类：<br>一是纯靠自身努力就能做成的（比如健身、学英语）。<br>二是纯靠外部运气才能成的（比如摇骰子、抽签）。<br>三是概率事件，既靠自身努力也靠外部运气。<strong>这部分占生活中的多数。</strong></p>
+        <p>公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。</p>
+<p>由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因为涉及商业机密，本文主要阐述挖矿算法的核心设计原则，不会深入写出具体数字和计算方法。<a id="more"></a></p>
+<p>##项目背景</p>
+<p>车载OBD矿机在18年中旬时市面上已经有相关的产品了，不算是什么新奇产品，本质就是在传统OBD盒子的基础上披上了区块链挖矿的外衣。因为公司做的就是车链，加上当时竞品也在做这块的业务，于是公司成立了该项目，直接与竞品对标，抢占市场。</p>
+<p>OBD市场在当时也已经有了一定的成熟度，软硬件搭配已经很完善，不同品牌的OBD之间的差异性较小。缺点是类似里程、油耗这类数据容易存在误差，而类似故障码、车况等车辆数据一般用户平时使用到的概率较低，属于“食之无味，弃之可惜”的产品。</p>
+<p>给OBD加上挖矿功能，本质是给这个食之无味的的产品，增加一点调料，使其更容易被接受。而由于“区块链“概念的加持，市面上OBD矿机的定价也比传统OBD盒子贵了不少（炒热度），不过据观察依然有不少人为此买单（挖矿可以慢慢回本）。在高单价的支持下（毛利为硬件成本的几倍到十倍），OBD矿机的利润空间相当可观，项目具备可行性。</p>
+<p>##算法需求分析</p>
+<p>在文章开头时已经提到，OBD矿机挖矿不像比特币矿机挖矿，OBD矿机挖矿本质只是利用OBD能获取车辆数据的特点，对数据进行一定处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。</p>
+<p>因为是数据挖矿，所以分析需求第一步需要先了解OBD本身能够获取车辆的哪些数据。下图为OBD盒子能获取的数据的简单归纳：</p>
+<p><img src="http://thwata.top/OBD能获取到的数据.png" alt=""></p>
+<p>了解了OBD能够获取的数据后，需要了解OBD挖矿功能的实际应用需求。经过对市面已有产品的调研和挖矿本身这件事的定义，在多次讨论后初步定下了功能需求：<strong>主打开车挖矿，在合理驾车、文明驾车的前提下，行车越久，挖矿数量越多。</strong></p>
+<p>在以上分析的基础上，我们可以初步确定算法设计的方向：<strong>基于OBD能获取到的数据，设计一个根据驾车时长（或驾车里程），同时结合判断车主是否合理、文明驾车的挖矿算法。</strong></p>
+<p>##算法设计</p>
+<p>####需要满足的条件</p>
+<p>在明确了算法设计方向后，结合大家讨论结果，首先对算法需要满足的条件做了一个初步罗列：</p>
+<p>1、挖矿数量根据驾车时长或驾车里程成关系变化；</p>
+<p>2、能够判断车主是否合理、文明驾车，且判断结果会对挖矿数量产生影响；</p>
+<p>3、能够判断车辆车况是否健康，且判断结果会对挖矿数量产生影响；</p>
+<p>4、挖矿数量动态化，产币数量由多个核心指标控制，不容易从每日的产币数量看出产币规律；</p>
+<p>5、算法适用于极限情况（即一天只开车100米或500公里等极限情况），在币价一定程度波动下仍然适用；</p>
+<p>####框架初步设计</p>
+<p>在知道了OBD能获取到的数据有哪些，又根据需求推导出了算法需要满足的条件后，便可以开始进行算法的框架搭建了。</p>
+<p>团队在算法框架的搭建上采用了根据条件逐一推导的方法，具体推导过程大致如下：</p>
+<blockquote>
+<p>1、挖矿数量根据驾车时长或驾车里程成关系变化；</p>
 </blockquote>
-<p>早些年看过一本书叫《异类》，书里通过研究各种案例来说明一个观点：成功不是随机事件。成功是在坚持个人奋斗，硬件（如智商）达到一点门槛的前提下，再由于自身的“天时、地利、人和”铸就的。</p>
-<p>该观点打破了以往的10000小时理论。大部分人即使通过10000小时的训练（只是刻苦努力的前提），由于“天时、地利、人和”的天生限制，也无法取得传统意义上的成功。</p>
-<p>曲凯的这篇文章与《异类》有着相似的观点。其认同大多的事情是靠运气的，但同时他也认为成功概率是可以靠个人策略来提升的，尽管这些提升比较有限。文中对各VC以往投资数据和Babe Ruth棒球生涯数据的分析解读观点较有趣，有助于提升自己对某些概率事件的决策判断力。</p>
-<h3 id="干嘉伟：真正厉害的企业，是如何带团队的？"><a href="#干嘉伟：真正厉害的企业，是如何带团队的？" class="headerlink" title="干嘉伟：真正厉害的企业，是如何带团队的？"></a><a href="https://mp.weixin.qq.com/s/aQgGOoTnXQsHjNmJHyczIg" target="_blank" rel="noopener">干嘉伟：真正厉害的企业，是如何带团队的？</a></h3><blockquote>
-<p>干嘉伟，高瓴资本运营合伙人，美团前 COO，阿里巴巴前销售副总裁。</p>
+<p>以开车里程为主要指标，设置里程分数。早开车里程越多，里程分数越高，挖矿数量越多。</p>
+<blockquote>
+<p>2、能够判断车主是否合理、文明驾车，且判断结果会对挖矿数量产生影响；</p>
 </blockquote>
-<p>产品沉思录推荐的文章。纵观各领域的大佬，对自己领域内的业务总是有一套自己的方法论，其中大部分方法论都是在多年的实际业务中形成出来的，而其可以获得成功，<strong>至少可以说明他的方法论可以为自己的业务在当下的时代中带来裨益。</strong>干嘉伟文中分享的很多观点对于管理者和创业者很大思考和借鉴价值，值得花点时间好好阅读。</p>
-<p>摘抄其部分观点如下：</p>
-<p>1、对于业务机会，可以用四面三层来分析。「四面」是所有生意都可以拆分成客户数、频次、客单价、货币化率。「三层」指市场现状、在线率和市场占有率。</p>
-<p>2、一个创业公司只要清晰认识并建立其中最核心的 3-4 个组织能力，就能战胜赛道里大多数的竞争对手。</p>
-<p>3、管理不是看你管过多少人，而是有没有掌握基本方法。只要让 80% 的人达到最好的那个人 80% 的水平，生活就能很幸福。</p>
-<p>4、人才三分法，即「野生纯天然」、「见过好体系」和「建过好体系」。</p>
-<h3 id="私域流量的本质和玩法"><a href="#私域流量的本质和玩法" class="headerlink" title="私域流量的本质和玩法"></a><a href="https://mp.weixin.qq.com/s/VUkiwU2a2HcqCMeQholqhA" target="_blank" rel="noopener">私域流量的本质和玩法</a></h3><p>继增长黑客，裂变营销后，“私域流量”这个概念最近在圈内热度越来越高。一番观察后发现其实私域流量的做法其实早就存在（朋友公司通过私人微信做公众号变现，每个月发朋友圈就可以做到200多万销售额），个人觉得如今只是被冠与了一个名头被炒作了起来。</p>
-<p>文章属于开卷有益，可以了解下目前一些别的领域的做法，感兴趣的同学可以自己去深挖。</p>
+<p>加入三急、超速的驾车行为分数，发生相应行为作扣分处理。</p>
+<blockquote>
+<p>3、能够判断车辆车况是否健康，且判断结果会对挖矿数量产生影响；</p>
+</blockquote>
+<p>加入车况、故障码的车辆健康分数，出现故障码或异常车况作扣分处理（分数会影响挖矿数量）</p>
+<blockquote>
+<p>4、挖矿数量动态化，产币数量由多个核心指标控制，不容易从每日的产币数量看出产币规律；</p>
+</blockquote>
+<p>a.设置矿池，每天往矿池投放固定等值ETH数量（M）的Token作为奖励。举例：每天投放代币价值为2ETH，当天Token价格为0.0001ETH，则投放的Token数量为20000个，M=20000；</p>
+<p>b.M值做限制，M值不得大于当天挖矿人数*50 （二者校验取低值执行）；</p>
+<p>c.里程分、驾车行为分、车辆健康分三者统称为基础分数。用户通过基础分数参与到矿池Token分配，具体分配方式为：M1=y1/(y1+y2+y3+…yn)*M，其中y=用户基础分 ，M1=单个用户分配的Token数量，M=系统每日投入的Token总量；</p>
+<blockquote>
+<p>5、算法适用于极限情况（即一天只开车100米或500公里等极限情况），在币价一定程度波动下仍然适用；</p>
+</blockquote>
+<p>a.币价波动太大的情况下只需要修改M值的限制条件即可；</p>
+<p>b.里程分、驾驶行为分、车辆健康分别增加权重系数，根据里程分别设置三段不同的系数搭配，如：</p>
+<p>当里程&lt;3km时，基础分=0.8x里程分 + 0.1x驾驶行为分 + 0.1x车辆健康分</p>
+<p>当3k&lt;里程&lt;10KM, 基础分=0.5x里程分 + 0.2x驾驶行为分 + 0.3x车辆健康分</p>
+<p>当里程&gt;10km时，基础分=0.1x里程分 + 0.4x驾驶行为分 + 0.6x车辆健康分</p>
+<p>以上数值仅为举例，实际数值需要根据实际业务数据设置，设置该判定条件主要为了适应极限情况以及满足“合理驾车、文明驾车”的需求</p>
+<p>####最终算法</p>
+<p>在确认完初步框架后，剩下只需要根据需求设置好基础分三项的计分规则，再模拟真实数据进行算法测试和数值优化即可。文章举例只是一个算法的简单思路，由于实际项目中我方的OBD矿机存在多种型号，不同型号的矿机挖矿效率也不同，故实际算法对比上面的要较为复杂。</p>
+<p>##结论</p>
+<p>1、算法实际设计过程并非完全和文章阐述一样按部就班，其中踩了很多坑，也进行过多次试错才整理出最后的模型；</p>
+<p>2、该算法实现起来并不复杂，难点在于初始数值的选取和优化，需要使用多种数据多次进行校验是否合理；</p>
+<p>3、我方在上线初期进行了小范围测试，并根据反馈对数值进行多次优化后才正式上线，至今从数据和实际用户反馈观察来看，模型没有出现较大问题，中间只是进行了一些初始数值的调整，基本满足了当初的需求。</p>
+<p>###</p>
 
       
     </div>
@@ -398,9 +439,9 @@
       
         <div class="post-tags">
           
-            <a href="/tags/运营推广/" rel="tag"># 运营推广</a>
+            <a href="/tags/产品设计/" rel="tag"># 产品设计</a>
           
-            <a href="/tags/个人管理/" rel="tag"># 个人管理</a>
+            <a href="/tags/区块链/" rel="tag"># 区块链</a>
           
         </div>
       
@@ -413,8 +454,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2019/50c76416.html" rel="next" title="每周文章推荐-第1期">
-                <i class="fa fa-chevron-left"></i> 每周文章推荐-第1期
+              <a href="/2019/c4a19a80.html" rel="next" title="20190711-写于26岁生日">
+                <i class="fa fa-chevron-left"></i> 20190711-写于26岁生日
               </a>
             
           </div>
@@ -422,10 +463,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2019/81d2242e.html" rel="prev" title="每周文章推荐-第3期">
-                每周文章推荐-第3期 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -482,17 +519,8 @@
       
 
       
-        <ul class="sidebar-nav motion-element">
-          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
-            文章目录
-          </li>
-          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
-            站点概览
-          </li>
-        </ul>
-      
 
-      <section class="site-overview-wrap sidebar-panel">
+      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -571,22 +599,6 @@
         </div>
       </section>
 
-      
-      <!--noindex-->
-        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
-          <div class="post-toc">
-
-            
-              
-            
-
-            
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#一个王兴换三个陈欧，一个滴滴换十个小红书"><span class="nav-number">1.</span> <span class="nav-text">一个王兴换三个陈欧，一个滴滴换十个小红书</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#干嘉伟：真正厉害的企业，是如何带团队的？"><span class="nav-number">2.</span> <span class="nav-text">干嘉伟：真正厉害的企业，是如何带团队的？</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#私域流量的本质和玩法"><span class="nav-number">3.</span> <span class="nav-text">私域流量的本质和玩法</span></a></li></ol></div>
-            
-
-          </div>
-        </section>
-      <!--/noindex-->
       
 
       
