@@ -90,7 +90,7 @@
 <meta property="og:description" content="公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。 由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因">
 <meta property="og:locale" content="zh-Hans">
 <meta property="og:image" content="http://thwata.top/OBD能获取到的数据.png">
-<meta property="og:updated_time" content="2019-08-19T09:46:55.420Z">
+<meta property="og:updated_time" content="2019-08-19T10:04:08.164Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="车载OBD矿机挖矿算法设计">
 <meta name="twitter:description" content="公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。 由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因">
@@ -367,26 +367,20 @@
       
         <p>公司在18年中旬到年末期间做了一个车载OBD矿机的项目，给传统的OBD盒子加上了挖矿的功能，利用“开车即挖矿”的概念讲产品推广给社区用户。该种挖矿模式不像比特币的“拼算力”模式，本质只是利用OBD能获取车辆数据的特点，对数据进行计算处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。</p>
 <p>由于是通过数据进行“算力”计算，所以挖矿的算法是否合理尤为重要，当时也花了较大功夫设计和优化。因为涉及商业机密，本文主要阐述挖矿算法的核心设计原则，不会深入写出具体数字和计算方法。<a id="more"></a></p>
-<p>##项目背景</p>
-<p>车载OBD矿机在18年中旬时市面上已经有相关的产品了，不算是什么新奇产品，本质就是在传统OBD盒子的基础上披上了区块链挖矿的外衣。因为公司做的就是车链，加上当时竞品也在做这块的业务，于是公司成立了该项目，直接与竞品对标，抢占市场。</p>
+<h2 id="项目背景"><a href="#项目背景" class="headerlink" title="项目背景"></a>项目背景</h2><p>车载OBD矿机在18年中旬时市面上已经有相关的产品了，不算是什么新奇产品，本质就是在传统OBD盒子的基础上披上了区块链挖矿的外衣。因为公司做的就是车链，加上当时竞品也在做这块的业务，于是公司成立了该项目，直接与竞品对标，抢占市场。</p>
 <p>OBD市场在当时也已经有了一定的成熟度，软硬件搭配已经很完善，不同品牌的OBD之间的差异性较小。缺点是类似里程、油耗这类数据容易存在误差，而类似故障码、车况等车辆数据一般用户平时使用到的概率较低，属于“食之无味，弃之可惜”的产品。</p>
 <p>给OBD加上挖矿功能，本质是给这个食之无味的的产品，增加一点调料，使其更容易被接受。而由于“区块链“概念的加持，市面上OBD矿机的定价也比传统OBD盒子贵了不少（炒热度），不过据观察依然有不少人为此买单（挖矿可以慢慢回本）。在高单价的支持下（毛利为硬件成本的几倍到十倍），OBD矿机的利润空间相当可观，项目具备可行性。</p>
-<p>##算法需求分析</p>
-<p>在文章开头时已经提到，OBD矿机挖矿不像比特币矿机挖矿，OBD矿机挖矿本质只是利用OBD能获取车辆数据的特点，对数据进行一定处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。</p>
-<p>因为是数据挖矿，所以分析需求第一步需要先了解OBD本身能够获取车辆的哪些数据。下图为OBD盒子能获取的数据的简单归纳：</p>
-<p><img src="http://thwata.top/OBD能获取到的数据.png" alt=""></p>
+<h2 id="算法需求分析"><a href="#算法需求分析" class="headerlink" title="算法需求分析"></a>算法需求分析</h2><p>在文章开头时已经提到，OBD矿机挖矿不像比特币矿机挖矿，OBD矿机挖矿本质只是利用OBD能获取车辆数据的特点，对数据进行一定处理，最后转换成“算力”并挖矿的伪挖矿模式，其挖矿带来的消耗几乎为0。</p>
+<p>因为是数据挖矿，所以分析需求第一步需要先了解OBD本身能够获取车辆的哪些数据。下图为OBD盒子能获取的数据的简单归纳：<br><img src="http://thwata.top/OBD能获取到的数据.png" alt=""></p>
 <p>了解了OBD能够获取的数据后，需要了解OBD挖矿功能的实际应用需求。经过对市面已有产品的调研和挖矿本身这件事的定义，在多次讨论后初步定下了功能需求：<strong>主打开车挖矿，在合理驾车、文明驾车的前提下，行车越久，挖矿数量越多。</strong></p>
 <p>在以上分析的基础上，我们可以初步确定算法设计的方向：<strong>基于OBD能获取到的数据，设计一个根据驾车时长（或驾车里程），同时结合判断车主是否合理、文明驾车的挖矿算法。</strong></p>
-<p>##算法设计</p>
-<p>####需要满足的条件</p>
-<p>在明确了算法设计方向后，结合大家讨论结果，首先对算法需要满足的条件做了一个初步罗列：</p>
+<h2 id="算法设计"><a href="#算法设计" class="headerlink" title="算法设计"></a>算法设计</h2><h4 id="需要满足的条件"><a href="#需要满足的条件" class="headerlink" title="需要满足的条件"></a>需要满足的条件</h4><p>在明确了算法设计方向后，结合大家讨论结果，首先对算法需要满足的条件做了一个初步罗列：</p>
 <p>1、挖矿数量根据驾车时长或驾车里程成关系变化；</p>
 <p>2、能够判断车主是否合理、文明驾车，且判断结果会对挖矿数量产生影响；</p>
 <p>3、能够判断车辆车况是否健康，且判断结果会对挖矿数量产生影响；</p>
 <p>4、挖矿数量动态化，产币数量由多个核心指标控制，不容易从每日的产币数量看出产币规律；</p>
 <p>5、算法适用于极限情况（即一天只开车100米或500公里等极限情况），在币价一定程度波动下仍然适用；</p>
-<p>####框架初步设计</p>
-<p>在知道了OBD能获取到的数据有哪些，又根据需求推导出了算法需要满足的条件后，便可以开始进行算法的框架搭建了。</p>
+<h4 id="框架初步设计"><a href="#框架初步设计" class="headerlink" title="框架初步设计"></a>框架初步设计</h4><p>在知道了OBD能获取到的数据有哪些，又根据需求推导出了算法需要满足的条件后，便可以开始进行算法的框架搭建了。</p>
 <p>团队在算法框架的搭建上采用了根据条件逐一推导的方法，具体推导过程大致如下：</p>
 <blockquote>
 <p>1、挖矿数量根据驾车时长或驾车里程成关系变化；</p>
@@ -415,13 +409,10 @@
 <p>当3k&lt;里程&lt;10KM, 基础分=0.5x里程分 + 0.2x驾驶行为分 + 0.3x车辆健康分</p>
 <p>当里程&gt;10km时，基础分=0.1x里程分 + 0.4x驾驶行为分 + 0.6x车辆健康分</p>
 <p>以上数值仅为举例，实际数值需要根据实际业务数据设置，设置该判定条件主要为了适应极限情况以及满足“合理驾车、文明驾车”的需求</p>
-<p>####最终算法</p>
-<p>在确认完初步框架后，剩下只需要根据需求设置好基础分三项的计分规则，再模拟真实数据进行算法测试和数值优化即可。文章举例只是一个算法的简单思路，由于实际项目中我方的OBD矿机存在多种型号，不同型号的矿机挖矿效率也不同，故实际算法对比上面的要较为复杂。</p>
-<p>##结论</p>
-<p>1、算法实际设计过程并非完全和文章阐述一样按部就班，其中踩了很多坑，也进行过多次试错才整理出最后的模型；</p>
+<h4 id="最终算法"><a href="#最终算法" class="headerlink" title="最终算法"></a>最终算法</h4><p>在确认完初步框架后，剩下只需要根据需求设置好基础分三项的计分规则，再模拟真实数据进行算法测试和数值优化即可。文章只是一个算法的简单思路复盘，由于实际项目中我方的OBD矿机存在多种型号，不同型号的矿机挖矿效率也不同，故实际算法对比上面的要较为复杂。</p>
+<h2 id="结论"><a href="#结论" class="headerlink" title="结论"></a>结论</h2><p>1、算法实际设计过程并非完全和文章阐述一样按部就班，其中踩了很多坑，也进行过多次试错才整理出最后的模型；</p>
 <p>2、该算法实现起来并不复杂，难点在于初始数值的选取和优化，需要使用多种数据多次进行校验是否合理；</p>
 <p>3、我方在上线初期进行了小范围测试，并根据反馈对数值进行多次优化后才正式上线，至今从数据和实际用户反馈观察来看，模型没有出现较大问题，中间只是进行了一些初始数值的调整，基本满足了当初的需求。</p>
-<p>###</p>
 
       
     </div>
@@ -519,8 +510,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -599,6 +599,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#项目背景"><span class="nav-number">1.</span> <span class="nav-text">项目背景</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算法需求分析"><span class="nav-number">2.</span> <span class="nav-text">算法需求分析</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#算法设计"><span class="nav-number">3.</span> <span class="nav-text">算法设计</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#需要满足的条件"><span class="nav-number">3.0.1.</span> <span class="nav-text">需要满足的条件</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#框架初步设计"><span class="nav-number">3.0.2.</span> <span class="nav-text">框架初步设计</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#最终算法"><span class="nav-number">3.0.3.</span> <span class="nav-text">最终算法</span></a></li></ol></li></ol><li class="nav-item nav-level-2"><a class="nav-link" href="#结论"><span class="nav-number">4.</span> <span class="nav-text">结论</span></a></li></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
